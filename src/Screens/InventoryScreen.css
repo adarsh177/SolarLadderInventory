@@ -1,0 +1,29 @@
+
+
+.BoldCell{
+    color: "#000";
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.NormalCell{
+    color: "#000";
+    vertical-align: middle;
+}
+
+.Pagination{
+    margin-top: 1em;
+    align-self: flex-end;
+}
+
+.TableRow:hover{
+    border-bottom: 2px solid var(--primaryColor);
+}
+
+@media(max-width: 768px){
+    .MenuMobileFix{
+        width: 100%;
+        margin: 0 !important;
+        margin-top: 0.5em !important;
+    }
+}
